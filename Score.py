@@ -50,7 +50,7 @@ def dfs(D,s1,s2):
 
     sequ1r = ' '.join([s1[j] for j in range(-1, -(len(s1) + 1), -1)])
     sequ2r = ' '.join([s2[j] for j in range(-1, -(len(s2) + 1), -1)])
-    return [sequ1r,sequ2r]
+    return sequ1r, sequ2r
     """
     if i == 0 and j == 0:
         return x,y
